@@ -39,8 +39,8 @@ header {
 }
 
 .nav-menu a:hover {
-    background-color:cadetblue;
-    border: 2px solid cadetblue;
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
     padding: 0.25rem 0.75rem;
     border-radius: 0.2rem;
 }
@@ -87,7 +87,7 @@ h3 {
     bottom: 100px;
     width: 150px;
     height: 25px;
-    background-color:white;
+    background-color: transparent;
     text-align: center;
 
     margin-left: auto;
@@ -95,7 +95,8 @@ h3 {
 }
 
 .nav-center a:hover {
-    border-color: cadetblue;
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
 }
 
 a, li {
@@ -124,8 +125,8 @@ footer {
 }
 
 .nav-info a:hover {
-    background-color:cadetblue;
-    border: 2px solid cadetblue;
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
     padding: 0.25rem 0.75rem;
     border-radius: 0.2rem;
 }

@@ -37,8 +37,8 @@ header {
 }
 
 .nav-menu a:hover {
-    background-color:cadetblue;
-    border: 2px solid cadetblue;
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
     padding: 0.25rem 0.75rem;
     border-radius: 0.2rem;
 }
@@ -49,70 +49,72 @@ header {
 }
 
 .userbtn {
-    background: rgb(39, 90, 230);
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
     width: 180px;
     height: 50px;
     margin-top: 3px;
     margin-left: 3px;
     margin-bottom: 3px;
-    text-align: left;
+    text-align: center;
     background-size: 100% auto;
 }
 
 .userbtn h2 {
     padding-top: 5px;
     padding-left: 10px;
-    color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
 }
 
 .mapatitle {
-    background-color: rgb(39, 90, 230);
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
     width: 1180px;
     height: 50px;
     margin-top: 3px;
     margin-bottom: 3px;
-    margin-left: 6px;
-    text-align: left;
+    margin-left: 3px;
+    text-align: center;
     background-size: 100% auto;
 }
 
 .mapatitle h2{
     padding: 0px;
     margin-top: 5px;
-    color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
     text-align: center;
     }
     
 .menubtn {
-    background: rgb(39, 90, 230);
-    width: 180px;
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
+    text-align: center;
+    width: 175px;
     height: 30px;
     margin-left: 3px;
     margin-bottom: 3px;
-    text-align: center;
     background-size: 100% auto;
 }
     
 .menubtn h3 {
     padding-top: 3px;
-    margin: 5px;
-    color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
 }
 
 .btn-item {
     background-color: white;
 }
 
-.btn-menu{
+.btn-menu {
     position: relativate;
     display: list-item;
-    border: 2px solid rgb(39, 90, 230);
+    border: 2px solid rgb(156, 156, 156);
     padding: 5px 4px;
-    color: white;
+    color: black;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    background: rgb(39, 90, 230);
+    background: rgb(220, 220, 220);
     transition: color 0.5s, background 0.5s;
     margin: 3px;
     font-size: 1em;
@@ -140,7 +142,7 @@ header {
 
 #map {
     width: 1163px;
-    height: 453px;
+    height: 490px;
 }
 
 .logo-social img{
@@ -165,8 +167,8 @@ footer {
 }
 
 .nav-info a:hover {
-    background-color:cadetblue;
-    border: 2px solid cadetblue;
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
     padding: 0.25rem 0.75rem;
     border-radius: 0.2rem;
 }

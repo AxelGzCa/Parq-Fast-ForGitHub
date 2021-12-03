@@ -12,34 +12,34 @@ body {
     background-color: white;
 }
 
-*{
-    list-style: none;
+.logo-header img{
+    width: 175px;
 }
 
 header {
-    background-color:white;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 2rem;
 }
 
-.logo-header img{
-    width: 175px;
-}
-
-.container ul {
+.nav-menu ul {
+    color: black;
     display: flex;
     align-items: center;
 }
 
-.container li {
+.nav-menu li {
+    color: black;
     margin-right: 1.5rem;
 }
 
-.containertable{
-    width: 100%;
-    padding: 15px;
+.nav-menu a:hover {
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.2rem;
 }
 
 article {
@@ -134,8 +134,8 @@ footer {
 }
 
 .nav-info a:hover {
-    background-color:cadetblue;
-    border: 2px solid cadetblue;
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
     padding: 0.25rem 0.75rem;
     border-radius: 0.2rem;
 }

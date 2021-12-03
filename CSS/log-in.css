@@ -28,30 +28,18 @@ header {
     width: 175px;
 }
 
-header {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 2rem;
-}
-
-.nav-menu ul {
-    color: black;
+.container ul {
     display: flex;
     align-items: center;
 }
 
-.nav-menu li {
-    color: black;
+.container li {
     margin-right: 1.5rem;
 }
 
-.nav-menu a:hover {
-    background: rgb(220, 220, 220);
-    border: 2px solid rgb(156, 156, 156);
-    padding: 0.25rem 0.75rem;
-    border-radius: 0.2rem;
+.containertable{
+    width: 100%;
+    padding: 15px;
 }
 
 article {
@@ -77,47 +65,85 @@ article:before {
     z-index: -1;
 }
 
-form {
-    background-color: white;
-    border-radius: 5px;
-    color: black;
-    padding: 20px;
-    margin: 0 auto;
-    width: 400px;
-    font-size: 18px;
+.formulario{
+    background: white;
+    margin: auto;
+    margin-top: 100px;
+    padding: 40px;
+    align-items: center;
 }
 
-h1 {
+h1{
     text-align: center;
     color: black;
     font-size: 30px;
 }
 
 .form-log img{
-    width: 400px;
+    min-width: 50px;
+    min-height: 200px;
+    align-items: center;
 }
 
-input, textarea {
-    outline: none;
-    width: 380px;
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 80%;
+    border: none;
+    padding: 10px;
 }
 
-.field {
-    border: solid 1px rgb(146, 141, 141);
-    padding: 5px;
+.input-container{
+    margin-bottom: 15px;
+    border: 1px solid black;
 }
 
-.field:focus {
-    border-color: cadetblue;
+.icon{
+    min-width: 20px;
+    text-align: left;
+    color:#999;
 }
 
-.center-content {
-    border: solid 1px white;
-    padding: 5px;
+.buttom{
+    width: 100%;
+    color: black;
+    border: none;
+    font-size: 20px;
+    background:lightgrey;
+    padding: 15px 20 px;
+    cursor: pointer;
+}
+
+.buttom:hover{
+    background-color:cadetblue;
+    border: 2px solid cadetblue;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.2rem;
+}
+
+p{
+    text-align: left;
+}
+
+@media(min-width:760px) {
+    .formulario{
+        margin: auto;
+        margin-top: 150px;
+        width: 500px;
+        border-radius: 4%;
+        position: relative;
+    }
 }
 
 .link{
-    font-size: 16px;
+    color: black;
+}
+
+.link:hover{
+    background-color:cadetblue;
+    border: 2px solid cadetblue;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.2rem;
 }
 
 .logo-social img{
@@ -147,3 +173,4 @@ footer {
     padding: 0.25rem 0.75rem;
     border-radius: 0.2rem;
 }
+
