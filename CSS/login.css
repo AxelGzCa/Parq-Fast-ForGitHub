@@ -85,6 +85,7 @@ form {
     margin: 0 auto;
     width: 400px;
     font-size: 18px;
+    align-items: center;
 }
 
 h1 {
@@ -97,27 +98,65 @@ h1 {
     width: 400px;
 }
 
-input, textarea {
-    outline: none;
-    width: 380px;
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 80%;
+    border: none;
+    padding: 10px;
 }
 
-.field {
-    border: solid 1px rgb(146, 141, 141);
-    padding: 5px;
+.input-container{
+    margin-bottom: 15px;
+    border: 1px solid black;
 }
 
-.field:focus {
-    border-color: cadetblue;
+.icon{
+    min-width: 20px;
+    text-align: left;
+    color:#999;
 }
 
-.center-content {
-    border: solid 1px white;
-    padding: 5px;
+.buttom{
+    width: 100%;
+    color: black;
+    border: none;
+    font-size: 20px;
+    background:lightgrey;
+    padding: 15px 20 px;
+    cursor: pointer;
+}
+
+.buttom:hover{
+    background-color:cadetblue;
+    border: 2px solid cadetblue;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.2rem;
+}
+
+p{
+    text-align: left;
+}
+
+@media(min-width:760px) {
+    .formulario{
+        margin: auto;
+        margin-top: 150px;
+        width: 500px;
+        border-radius: 4%;
+        position: relative;
+    }
 }
 
 .link{
-    font-size: 16px;
+    color: black;
+}
+
+.link:hover{
+    background-color:cadetblue;
+    border: 2px solid cadetblue;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.2rem;
 }
 
 .logo-social img{
