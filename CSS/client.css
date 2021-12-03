@@ -71,7 +71,7 @@ header {
     height: 50px;
     margin-top: 3px;
     margin-bottom: 3px;
-    margin-left: 1px;
+    margin-left: 6px;
     text-align: left;
     background-size: 100% auto;
 }
@@ -140,7 +140,7 @@ header {
 
 #map {
     width: 1163px;
-    height: 501px;
+    height: 453px;
 }
 
 .logo-social img{
